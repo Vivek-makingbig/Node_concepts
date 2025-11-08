@@ -1,7 +1,7 @@
 // Synchronous
-// const fs = require('fs');
-// const data =fs.writeFileSync('Write.txt','This is a new text file created by using writeFile funtion of the fs module');
-// console.log('Successfully written in file');
+const fs = require('fs');
+const data =fs.writeFileSync('Write.txt','This is a new text file created by using writeFile funtion of the fs module');
+console.log('Successfully written in file');
 
 
 // Asynchronous 
